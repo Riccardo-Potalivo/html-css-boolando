@@ -23,6 +23,14 @@
     margin: auto;
 }
 
+.p-relative {
+    position: relative;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -59,3 +67,6 @@ nav .logo-site>img {
     height: 30px;
     display: block;
 }
+
+
+/* main */
