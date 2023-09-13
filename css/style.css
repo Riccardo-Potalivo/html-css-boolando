@@ -37,8 +37,12 @@ a {
     display: flex;
 }
 
-.f-row {
-    flex-direction: row;
+.f-wrap {
+    flex-wrap: wrap;
+}
+
+.f-gap>* {
+    margin: 15px 0;
 }
 
 .f-j-c-space-b {
