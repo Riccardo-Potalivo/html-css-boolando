@@ -34,6 +34,10 @@ a {
     color: inherit;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 i.fa-lg {
     padding: 0 2px;
 }
@@ -68,6 +72,9 @@ i.fa-lg {
 nav {
     background-color: var(--color-primary-color-1);
     box-shadow: 0 0 5px 2px var(--box-shadow-dark);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
 }
 
 .nav-container {
@@ -87,7 +94,7 @@ nav .logo-site>img {
 
 /* main */
 main {
-    padding: 30px 0;
+    padding: 100px 0 30px;
 }
 
 .item-container {
@@ -98,6 +105,20 @@ main {
 .img-item-container>img {
     width: 100%;
     display: block;
+}
+
+.img-item-container img.image-hover {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: opacity .2s;
+}
+
+.img-item-container:hover img.image-hover {
+  opacity: 1;
 }
 
 .wishlist-lable {
@@ -111,6 +132,10 @@ main {
 
 .wishlist-icon {
     font-size: 30px;
+}
+
+.wishlist-lable:hover .wishlist-icon {
+    color: var(--color-secondary-color-1);
 }
 
 .item-label {
