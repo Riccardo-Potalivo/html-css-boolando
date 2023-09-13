@@ -27,10 +27,6 @@
     position: relative;
 }
 
-.p-absolute {
-    position: absolute;
-}
-
 a {
     text-decoration: none;
     color: inherit;
@@ -49,6 +45,10 @@ a {
     justify-content: space-between;
 }
 
+.f-j-c-center {
+    justify-content: center;
+}
+
 .f-a-i-center {
     align-items: center;
 }
@@ -60,7 +60,7 @@ nav {
 }
 
 .nav-container {
-    padding: 10px 0;
+    padding: 15px 0;
 }
 
 nav .logo-site>img {
@@ -70,3 +70,61 @@ nav .logo-site>img {
 
 
 /* main */
+main {
+    padding: 50px 0;
+}
+
+.item-container {
+    padding: 10px;
+    width: calc(100% / 3);
+}
+
+.img-item-container>img {
+    width: 100%;
+    display: block;
+}
+
+.wishlist-lable {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-neutral-lightest);
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.wishlist-icon {
+    font-size: 30px;
+}
+
+.item-label {
+    position: absolute;
+    bottom: 30px;
+}
+
+.item-label>* {
+    padding: 3px 5px;
+    color: var(--color-neutral-lightest);
+    font-weight: bold;
+    font-size: small;
+}
+
+.sales-label {
+    background-color: var(--color-secondary-color-1);
+    margin-right: 3px;
+}
+
+.eco-label {
+    background-color: var(--color-seconary-color-2);
+}
+
+.actual-price {
+    color: var(--color-secondary-color-1);
+    font-weight: bolder;
+    font-size: small;
+}
+
+.main-price {
+    font-size: smaller;
+    text-decoration:line-through;    
+}
