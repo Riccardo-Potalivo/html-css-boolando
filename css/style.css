@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    border: #000000 solid 1px;
+    /* border: #000000 solid 1px; */
 }
 
 /* palette */
@@ -30,6 +30,15 @@
 a {
     text-decoration: none;
     color: inherit;
+}
+
+i.fa-lg {
+    padding: 0 2px;
+}
+
+/* font style */
+.color-white {
+    color: var(--color-neutral-lightest);
 }
 
 /* flex */
@@ -65,6 +74,11 @@ nav {
 
 .nav-container {
     padding: 15px 0;
+}
+
+nav a {
+    font-weight: bold;
+    margin-right: 5px;
 }
 
 nav .logo-site>img {
@@ -131,4 +145,25 @@ main {
 .main-price {
     font-size: smaller;
     text-decoration:line-through;    
+}
+
+/* footer */
+footer {
+    background-color: var(--color-neutral-dark);
+    padding: 30px 0;
+}
+
+footer h4 {
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+footer h5 {
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.info-link {
+    font-size: small;
+    margin-right: 2px;
 }
