@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+    border: #000000 solid 1px;
 }
 
 /* palette */
@@ -15,4 +16,46 @@
 	--color-neutral-lightest: #ffffff;
 }
 
-/* general */
+/* general beginning */
+
+.wrapper {
+    max-width: 1200px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* flex */
+.d-flex {
+    display: flex;
+}
+
+.f-row {
+    flex-direction: row;
+}
+
+.f-j-c-space-b {
+    justify-content: space-between;
+}
+
+.f-a-i-center {
+    align-items: center;
+}
+
+
+/* navigation bar */
+nav {
+    background-color: var(--color-primary-color-1);
+}
+
+.nav-container {
+    padding: 10px 0;
+}
+
+nav .logo-site>img {
+    height: 30px;
+    display: block;
+}
