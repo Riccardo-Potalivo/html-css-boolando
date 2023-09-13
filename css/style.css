@@ -4,3 +4,15 @@
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+
+/* palette */
+:root {
+	--color-primary-color-1: #ff6900;
+	--color-secondary-color-1: #ff0000;
+	--color-seconary-color-2: #008000;
+	--color-neutral-darker: #000000;
+	--color-neutral-dark: #1a1a1a;
+	--color-neutral-lightest: #ffffff;
+}
+
+/* general */
